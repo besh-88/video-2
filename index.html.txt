@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <title>عرض الفيديو</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      direction: rtl;
+      text-align: center;
+      margin: 50px;
+      background-color: #f0f0f0;
+    }
+    h2 {
+      color: #333;
+    }
+    video {
+      max-width: 90%;
+      height: auto;
+      border: 2px solid #444;
+      border-radius: 8px;
+      background: black;
+    }
+  </style>
+</head>
+<body>
+  <h2>شاهد الفيديو</h2>
+  <video controls>
+    <source src="https://drive.google.com/uc?export=download&id=1CrFOiA8g0GsZsfSUVXGXzj3lHPT-QhLG" type="video/mp4" />
+    متصفحك لا يدعم عرض الفيديو.
+  </video>
+</body>
+</html>
